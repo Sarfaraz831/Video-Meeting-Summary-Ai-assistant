@@ -1,0 +1,43 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Environment variables (secrets)
+.env
+
+# Downloaded audio/video files
+downloades/
+
+# Vector database (regenerated at runtime)
+vector_db/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Streamlit
+.streamlit/
+
+# Test scripts
+test.py
+
+# Byte-compiled
+*.pyc

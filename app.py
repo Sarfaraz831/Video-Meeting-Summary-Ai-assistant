@@ -4,7 +4,7 @@ from core.rag_engine import ask_question
 from io import BytesIO
 from reportlab.platypus import SimpleDocTemplate, Paragraph
 from reportlab.lib.styles import getSampleStyleSheet
-
+os.environ["GROQ_API_KEY"] = st.secrets["GROQ_API_KEY"]
 st.set_page_config(
     page_title="AI Meeting Assistant",
     page_icon="🎥",

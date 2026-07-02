@@ -36,7 +36,7 @@ if process_btn:
     if source == "":
         st.warning("Please enter a video path or Video URL.")
         st.stop()
-
+    
     with st.spinner("Processing video... This may take few minutes."):
 
         result = run_pipeline(source, language)
